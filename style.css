@@ -1,0 +1,144 @@
+html {
+    background-color: silver;
+    font-family: times, arial;
+    font-size: medium;
+    text-align: center;
+  }
+  #header-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    height: 15%;
+    width: 100%;
+  }
+  #logo-div{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    position: fixed;
+    float: left;
+  }
+  #nav-div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    width: 97%;
+    position: fixed;
+  }
+  #nav-list li {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    margin-right: 0;
+    float: right;
+  }
+  #nav-list a {
+    text-decoration: none;
+    color: white;
+    font-variant-caps: all-small-caps;
+    font-size: large;
+    text-shadow: 0 0px 5px black;
+    opacity: 80%;
+  }
+  #nav-list a:hover {
+    text-decoration: underline;
+    color: teal;
+    text-shadow: 0 0 3px white;
+    font-weight: bold;
+    opacity: 100%;
+  }
+  #header-img {
+    max-width: 100px;
+    height: auto;
+  }
+  #h1-div {
+    display: block;
+    padding: 0;
+    height: 5%;
+    width: 50%;
+    position: relative;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    font-size: x-large;
+    color: teal;
+    font-variant-caps: small-caps;
+    text-shadow: 0 0 3px white;
+  }
+#img-div img {
+  width: 100%;
+  height: auto;
+}
+#img-div {
+  display: block;
+  width: 99%;
+}
+#img-div li {
+  display: inline-block;
+  width: 45%;
+}
+.left img{
+  border-radius: 100px 10px 10px 100px;
+  filter: saturate(120%);
+}
+.right img{
+  border-radius: 10px 100px 100px 10px;
+  filter: saturate(120%);
+}
+.center img{
+  border-radius: 10px 10px 70px 70px;
+  filter: saturate(120%);
+}
+h4 {
+  font-size: large;
+  font-variant-caps: all-small-caps;
+  color: teal;
+  text-shadow: 0 0 3px yellowgreen;
+}
+#info-div p{
+  font-size: medium;
+  text-align: justify;
+  color: black;
+  opacity: 85%;
+}
+#video-div {
+  display: block;
+  width: 100%;
+}
+#video-div li{
+  display: inline list-item;
+}
+#video-div iframe{
+  border-radius: 20px;
+  width:32%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#form-div input{
+  background-color: ghostwhite;
+  color: grey;
+  border: solid 2px;
+  border-radius: 5px;
+  width: 30%;
+  height: 24px;
+  font-variant-caps: all-petite-caps;
+}
+#form-div button {
+  color: green;
+  background-color: ghostwhite;
+  border-radius: 5px;
+  width: 150px;
+  margin-top: 15px;
+}
+#product-div img {
+  width: 30%;
+  border-radius: 50px;
+}
+#product-div li{
+  display: grid;
+}
